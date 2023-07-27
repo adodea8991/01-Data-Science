@@ -165,7 +165,7 @@ This project aims to provide valuable insights into the US unemployment data, en
 
 **Project Title: LA Crime Network Analysis**
 
-![LA Crime Network Visualization](https://github.com/adodea8991/01-Data-Science/01-LA-Crime/Clusterized-network.png)
+![LA Crime Network Visualization](https://github.com/adodea8991/01-Data-Science/blob/main/01-LA-Crime/Clusterized-network.png)
 
 ## Overview
 
