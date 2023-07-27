@@ -38,6 +38,14 @@ cd london-housing-analysis
 python vis-missing.py
 ```
 
+These will be the resulting views:
+
+
+![Monthly missing data](https://github.com/adodea8991/01-Data-Science/blob/main/00-UK-Housing/Missing-monthly.png)
+
+
+![Yearly missing data](https://github.com/adodea8991/01-Data-Science/blob/main/00-UK-Housing/Missing-yearly.png)
+
 3. Clean the monthly data:
 
 ```bash
