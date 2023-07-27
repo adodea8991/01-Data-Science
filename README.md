@@ -161,4 +161,52 @@ The `vis_unemployment.py` script generates three visualizations for US unemploym
 
 This project aims to provide valuable insights into the US unemployment data, enabling a better understanding of regional employment trends and economic conditions. Feel free to explore the visualizations and the aggregated dataset to gain further insights.
 
-Please let me know if you need any further assistance or have any questions. Happy analyzing!
+
+
+
+# Interactive Housing Data Dashboard
+
+Welcome to the Interactive Housing Data Dashboard! This dashboard allows you to explore and analyze housing data from `house_price_data.csv`. It provides three interactive visualizations:
+
+1. Line Chart: This chart displays the trend of house prices per district over time. You can hover over data points to see detailed information.
+
+2. Scatter Plot: The scatter plot shows the relationship between district and house prices. Hovering over data points will reveal specific district and price details.
+
+3. Bar Chart: This chart presents a comparison of house prices among different districts. Hover over each bar to view the exact price for that district.
+
+## How to Run the Dashboard
+
+1. Make sure you have Python installed on your system.
+
+2. Install the required libraries by running the following command in your terminal:
+
+```bash
+pip install pandas plotly dash
+```
+
+3. Download or clone this repository to your local machine.
+
+4. Navigate to the directory containing `dashboard.py` and the `house_price_data.csv` file.
+
+5. To launch the dashboard, execute the following command:
+
+```bash
+python dashboard.py
+```
+
+![Dashboard view](https://github.com/adodea8991/01-Data-Science/blob/main/00-Dashboard/Screenshot%202023-07-27%20at%2023.34.15.png)
+
+
+6. The program will start a local server, and you can access the dashboard by opening your web browser and visiting the provided URL (usually `http://127.0.0.1:8050/`).
+
+7. The dashboard provides buttons on the left to activate/deactivate different visualizations. Use the hover functionality to gain insights into specific data points.
+
+## Tips for Interacting with the Dashboard
+
+- Toggle the buttons on the left to switch between line chart, scatter plot, and bar chart.
+
+- Hover over data points in each visualization to view additional information.
+
+- Use the interactive features to explore the trends and relationships between house prices and districts.
+
+Feel free to experiment with different visualizations and gain valuable insights into the housing data. If you encounter any issues or have questions, please don't hesitate to reach out. Enjoy exploring the Interactive Housing Data Dashboard!
