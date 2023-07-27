@@ -163,6 +163,41 @@ This project aims to provide valuable insights into the US unemployment data, en
 
 
 
+**Project Title: LA Crime Network Analysis**
+
+![LA Crime Network Visualization](https://github.com/adodea8991/01-Data-Science/01-LA-Crime/Clusterized-network.png)
+
+## Overview
+
+This project explores the network of crime incidents in Los Angeles (LA) using a graph-based approach. The dataset contains information about criminal activities and the relationships between various crime types and locations within the city.
+
+## Data Source
+
+The dataset used in this project, named `ia-crime-moreno.edges`, contains a list of undirected edges representing co-occurrences of crimes in LA. It is a bipartite graph where nodes are of two types: crime incidents and specific crime locations.
+
+## Network Science Visualization
+
+Using Python and libraries like NetworkX and Matplotlib, we analyze and visualize the LA crime network. The script processes the dataset and creates an interactive and visually appealing network graph. Nodes represent crime incidents and crime locations, while edges signify co-occurrences.
+
+## Clustering for Insights
+
+To gain insights into the LA crime network, we apply the Louvain community detection algorithm to cluster similar crime incidents. The network is partitioned into a limited number of distinct clusters, allowing us to understand patterns of co-occurring crimes.
+
+## Enhancing Readability
+
+To improve the visualization's readability, we have customized the layout to ensure adequate spacing between nodes and labels. The use of a reduced number of colors and a simple legend makes it easier to interpret the clustering results.
+
+## Purpose and Use Cases
+
+The analysis of the LA crime network provides valuable insights for law enforcement agencies, city planners, and policymakers. Understanding the relationships between different types of crimes and their geographic distribution can aid in developing targeted crime prevention strategies and resource allocation.
+
+## Instructions
+
+1. Install Python and required libraries: NetworkX, Matplotlib, and python-louvain.
+2. Download the `ia-crime-moreno.edges` dataset.
+3. Run the provided Python script to visualize the LA crime network and clustering results.
+
+
 
 # Interactive Housing Data Dashboard
 
