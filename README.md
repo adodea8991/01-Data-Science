@@ -76,3 +76,89 @@ This project aims to provide a comprehensive analysis of London housing data, en
 
 Please let me know if you need any further assistance or have any questions. Happy analyzing!
 
+
+
+
+
+
+# Project: US Unemployment Data Analysis
+
+This repository contains Python scripts to analyze and visualize US unemployment data from two different datasets: `unemployment_data_us_state.csv` and `unemployment_data_us.csv`.
+
+## Overview
+
+Unemployment data is crucial for understanding the job market and economic conditions in different regions of the United States. In this project, we will perform the following steps:
+
+1. Visualize regional unemployment data per state using `unemployment.py`.
+2. Aggregate the data from `unemployment_data_us_state.csv` and `unemployment_data_us.csv` into a single dataset using `aggregate_data.py` to generate `unemployment_aggregate.csv`.
+3. Create visualizations to gain insights into the US unemployment trends using `vis_unemployment.py`.
+
+## Datasets
+
+The two main datasets used in this project are:
+- `unemployment_data_us_state.csv`: Contains unemployment data per state over the years.
+- `unemployment_data_us.csv`: Contains overall US unemployment data over the years.
+
+## Code Files
+
+1. `unemployment.py`: This script visualizes regional unemployment data per state, creating box plots and linear plots for each state over the years.
+2. `aggregate_data.py`: This script combines the data from `unemployment_data_us_state.csv` and `unemployment_data_us.csv` into a single dataset, generating `unemployment_aggregate.csv`.
+3. `vis_unemployment.py`: This script generates three visualizations for US unemployment data: a box plot, a histogram, and a scatter plot.
+
+## How to Use
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/us-unemployment-analysis.git
+cd us-unemployment-analysis
+```
+
+2. Visualize regional unemployment data per state:
+
+```bash
+python unemployment.py
+```
+
+![Box plot per state](https://github.com/adodea8991/01-Data-Science/blob/main/00-US-Unemployement/F1-Distribution-per-State.png)
+![Linear plot per state](https://github.com/adodea8991/01-Data-Science/blob/main/00-US-Unemployement/F2-Rates-per-Day.png)
+
+
+3. Aggregate the data:
+
+```bash
+python aggregate_data.py
+```
+
+4. Create visualizations:
+
+```bash
+python vis_unemployment.py
+```
+
+![Box plot](https://github.com/adodea8991/01-Data-Science/blob/main/00-US-Unemployement/box-plot.png)
+![Histogram](https://github.com/adodea8991/01-Data-Science/blob/main/00-US-Unemployement/histogram.png)
+![Scatter plot](https://github.com/adodea8991/01-Data-Science/blob/main/00-US-Unemployement/scatter-plot.png)
+
+
+## Regional Unemployment Data Visualization
+
+The `unemployment.py` script creates visualizations to show regional unemployment data per state. It generates box plots and linear plots for each state, providing insights into the unemployment trends over the years.
+
+## Data Aggregation
+
+The `aggregate_data.py` script combines the data from `unemployment_data_us_state.csv` and `unemployment_data_us.csv` into a single dataset, `unemployment_aggregate.csv`, for further analysis.
+
+## Visualization
+
+The `vis_unemployment.py` script generates three visualizations for US unemployment data:
+
+1. Box Plot: The box plot provides a graphical representation of the distribution of unemployment rates in the United States, helping to identify outliers and variations in different regions.
+2. Histogram: The histogram displays the frequency distribution of unemployment rates, enabling us to understand the data's overall distribution.
+3. Scatter Plot: The scatter plot shows the relationship between unemployment rates and other variables, such as GDP or population, to explore potential correlations.
+
+## Conclusion
+
+This project aims to provide valuable insights into the US unemployment data, enabling a better understanding of regional employment trends and economic conditions. Feel free to explore the visualizations and the aggregated dataset to gain further insights.
+
+Please let me know if you need any further assistance or have any questions. Happy analyzing!
