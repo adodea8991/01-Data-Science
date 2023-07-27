@@ -28,14 +28,14 @@ The two main datasets used in this project are:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/london-housing-analysis.git
-cd london-housing-analysis
+git clone https://github.com/adodea8991/01-Data-Science.git
+cd 00-UK-Housing
 ```
 
 2. Visualize missing data:
 
 ```bash
-python vis-missing.py
+python3 vis-missing.py
 ```
 
 These will be the resulting views:
@@ -49,13 +49,13 @@ These will be the resulting views:
 3. Clean the monthly data:
 
 ```bash
-python cleaning-monthly.py
+python3 cleaning-monthly.py
 ```
 
 4. Aggregate the data and create visualizations:
 
 ```bash
-python aggregate.py
+python3 aggregate.py
 ```
 
 ## Data Cleaning
@@ -110,14 +110,14 @@ The two main datasets used in this project are:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/us-unemployment-analysis.git
-cd us-unemployment-analysis
+git clone https://github.com/adodea8991/01-Data-Science.git
+cd 00-US-Unemployement
 ```
 
 2. Visualize regional unemployment data per state:
 
 ```bash
-python unemployment.py
+python3 unemployment.py
 ```
 
 ![Box plot per state](https://github.com/adodea8991/01-Data-Science/blob/main/00-US-Unemployement/F1-Distribution-per-State.png)
@@ -127,13 +127,13 @@ python unemployment.py
 3. Aggregate the data:
 
 ```bash
-python aggregate_data.py
+python3 aggregate_data.py
 ```
 
 4. Create visualizations:
 
 ```bash
-python vis_unemployment.py
+python3 vis_unemployment.py
 ```
 
 ![Box plot](https://github.com/adodea8991/01-Data-Science/blob/main/00-US-Unemployement/box-plot.png)
